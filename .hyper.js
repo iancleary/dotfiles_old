@@ -51,10 +51,10 @@ module.exports = {
     selectionColor: 'rgba(248,28,229,0.3)',
 
     // border color (window, tabs)
-    borderColor: '#333',
+    borderColor: '#000000',
 
     // custom CSS to embed in the main window
-    css: '',
+    css: `.splitpane_divider { background-color: black !important; }`,
 
     // custom CSS to embed in the terminal window
     termCSS: '',
@@ -162,6 +162,3 @@ module.exports = {
     "pane:splitHorizontal": "ctrl+shift+f", // changed from "ctrl+shift+e" because https://github.com/vercel/hyper/issues/3660
   },
 };
-
-
-
