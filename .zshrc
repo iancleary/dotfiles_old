@@ -73,18 +73,10 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-# plugins=(gitfast poetry yarn zsh zsh-syntax-highlighting) # deprecated with antibody
+
+plugins=(gitfast yarn zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-
-# https://github.com/getantibody/antibody/issues/261#issuecomment-616205908
-plugins=(
-  gitfast
-poetry
-yarn
-zsh
-zsh-syntax-highlighting
-)
 
 # User configuration
 
