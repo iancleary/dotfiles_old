@@ -107,7 +107,6 @@
         "yadm",
         "zsh"
     ],
-    "window.zoomLevel": -1,
     "workbench.colorTheme": "Night Owl",
     "python.pythonPath": "/home/iancleary/.cache/pypoetry/virtualenvs/fastrf-eMJsGUfs-py3.8",
     "python.venvPath": "/home/iancleary/.cache/pypoetry/virtualenvs/",
