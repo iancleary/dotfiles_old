@@ -3,3 +3,5 @@
 	name = iancleary
 [init]
 	defaultBranch = main
+[pull]
+	rebase = false
