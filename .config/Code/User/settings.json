@@ -94,6 +94,7 @@
         "tailwindcss",
         "ticktick",
         "timeshift",
+        "typer",
         "ulauncher",
         "uvicorn",
         "v",
@@ -124,11 +125,10 @@
     "[javascript]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
-    "editor.fontFamily": "'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "editor.fontFamily": "'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.startupEditor": "none",
+    "python.defaultInterpreterPath": "/home/iancleary/.cache/pypoetry/virtualenvs/fastrf-eMJsGUfs-py3.8"
 }
