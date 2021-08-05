@@ -1,4 +1,4 @@
-.ssh/github_id_rsa
+.ssh/github_id_ed25519
 .config/gh/config.yml
 .config/nordvpn/nordvpn.conf
 
