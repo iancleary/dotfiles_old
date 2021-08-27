@@ -109,8 +109,6 @@
         "zsh"
     ],
     "workbench.colorTheme": "Night Owl",
-    "python.pythonPath": "/home/iancleary/.cache/pypoetry/virtualenvs/fastrf-eMJsGUfs-py3.8",
-    "python.venvPath": "/home/iancleary/.cache/pypoetry/virtualenvs/",
     "vsicons.dontShowNewVersionMessage": true,
     "python.languageServer": "Pylance",
     "terminal.integrated.fontFamily": "monospace",
@@ -126,9 +124,13 @@
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
+        "*.ipynb": "jupyter-notebook"
     },
     "editor.fontFamily": "'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "workbench.startupEditor": "none",
-    "python.defaultInterpreterPath": "/home/iancleary/.cache/pypoetry/virtualenvs/fastrf-eMJsGUfs-py3.8"
+    "python.defaultInterpreterPath": "/home/iancleary/.cache/pypoetry/virtualenvs/fastrf-eMJsGUfs-py3.8",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    }
 }
