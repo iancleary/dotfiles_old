@@ -133,4 +133,5 @@
         "default": "right",
         "jupyter-notebook": "left"
     }
+    "window.zoomLevel": -3
 }
