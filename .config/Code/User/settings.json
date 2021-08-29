@@ -44,7 +44,7 @@
         "gridsome",
         "gsettings",
         "highlightjs",
-        "iancleary",
+        "icancclearynow",
         "imager",
         "init's",
         "it",
@@ -128,10 +128,10 @@
     },
     "editor.fontFamily": "'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "workbench.startupEditor": "none",
-    "python.defaultInterpreterPath": "/home/iancleary/.cache/pypoetry/virtualenvs/fastrf-eMJsGUfs-py3.8",
+    "python.defaultInterpreterPath": "/home/icancclearynow/.cache/pypoetry/virtualenvs/fastrf-eMJsGUfs-py3.8",
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "window.zoomLevel": -3
+    "window.zoomLevel": -1
 }
