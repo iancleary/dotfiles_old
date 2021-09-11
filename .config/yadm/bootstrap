@@ -9,10 +9,4 @@ echo "Testing ssh connection to github.com"
 ssh -T git@github.com
 echo "Updating the yadm repo origin URL"
 yadm remote set-url origin "git@github.com:iancleary/dotfiles.git"
-
-# https://github.com/TheLocehiliosan/yadm/issues/232
-# still clones into master branch, remove when ^ is resolved
-yadm checkout -b main
-yadm branch -D master
-
 echo "------------------------------------------------------------"
