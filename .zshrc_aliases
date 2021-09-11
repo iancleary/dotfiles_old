@@ -2,8 +2,7 @@
 # Ansible managed
 #
 
-alias ls='ls -F'
-alias ll='ls -lh'
+alias ls="colorls"
 alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | egrep ^/dev/ | sort"
 alias hg='history|grep'
 alias left='ls -t -1'
