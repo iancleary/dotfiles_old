@@ -127,7 +127,6 @@
     },
     "editor.fontFamily": "'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "workbench.startupEditor": "none",
-    "python.defaultInterpreterPath": "/home/iancleary/.cache/pypoetry/virtualenvs/fastrf-eMJsGUfs-py3.8",
     "redhat.telemetry.enabled": false,
     "security.workspace.trust.untrustedFiles": "open"
 }
