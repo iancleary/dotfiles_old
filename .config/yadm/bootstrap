@@ -1,5 +1,7 @@
 #!/bin/sh
 echo "------------------------------------------------------------"
+echo "Reset yadm to HEAD"
+yadm reset HEAD --hard
 echo "Decrypting files"
 yadm decrypt # (enter password)
 echo "Starting ssh-agent and adding SSH key"
