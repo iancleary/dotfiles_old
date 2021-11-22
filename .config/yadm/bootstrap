@@ -10,5 +10,5 @@ ssh-add ~/.ssh/github_id_ed25519
 echo "Testing ssh connection to github.com"
 ssh -T git@github.com
 echo "Updating the yadm repo origin URL"
-yadm remote set-url origin "git@github.com:iancleary/dotfiles.git"
+yadm remote set-url origin "git@github.com:icancclearynow/dotfiles.git"
 echo "------------------------------------------------------------"
