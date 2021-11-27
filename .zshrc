@@ -125,6 +125,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
     source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
     export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+    export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
 else
     # Unknown.
 fi
