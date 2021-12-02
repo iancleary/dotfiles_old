@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Night Owl",
+    "workbench.colorTheme": "Atom One Dark",
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
     "redhat.telemetry.enabled": true,
     "terminal.integrated.fontFamily": "MesloLGS NF",
@@ -110,5 +110,6 @@
         "wifi analyzer",
         "yadm",
         "zsh"
-    ]
+    ],
+    "window.zoomLevel": -1
 }
