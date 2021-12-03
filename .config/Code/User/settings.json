@@ -108,7 +108,7 @@
         "yadm",
         "zsh"
     ],
-    "workbench.colorTheme": "Night Owl",
+    "workbench.colorTheme": "Atom One Dark",
     "vsicons.dontShowNewVersionMessage": true,
     "python.languageServer": "Pylance",
     "eslint.format.enable": true,
