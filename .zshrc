@@ -126,6 +126,8 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
     export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
     export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
+    # Created by `pipx` on 2021-12-03 00:48:33
+    export PATH="$PATH:/Users/iancleary/.local/bin"
 else
     # Unknown.
 fi
@@ -141,3 +143,5 @@ fi
 # All shells (zsh, bash, etc.) source this folder.
 # This allows for modularity in your configuration.
 ### ----------------------------------------------
+
+
