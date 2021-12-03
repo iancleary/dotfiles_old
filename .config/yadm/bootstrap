@@ -6,7 +6,14 @@ echo "Decrypting files"
 yadm decrypt # (enter password)
 echo "Starting ssh-agent and adding SSH key"
 eval $(ssh-agent -s)
-ssh-add ~/.ssh/github_id_ed25519
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    ssh-add ~/.ssh/github_id_ed25519
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    # Mac OSX
+    ssh-add --apple-use-keychain  ~/.ssh/github_id_ed25519
+else
+    # Unknown.
+fi
 echo "Testing ssh connection to github.com"
 ssh -T git@github.com
 echo "Updating the yadm repo origin URL"
