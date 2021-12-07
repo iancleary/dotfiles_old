@@ -6,7 +6,7 @@ My dotfiles are used and tested on MacOS, Ubuntu 20.04, ElementaryOS 6.
 I primarily use MacOS at home, Ubuntu at work or for anything with servers, and am a fan of Elementary.
 
 If you use a Mac, I recommend you checkout [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook)!
-If you use Ubuntu or Elementary OS, I recommend you checkout [icancclearynow/ubuntu-dev-playbook](https://github.com/icancclearynow/ubuntu-dev-playbook)!
+If you use Ubuntu or Elementary OS, I recommend you checkout [iancleary/ubuntu-dev-playbook](https://github.com/iancleary/ubuntu-dev-playbook)!
 
 Cheers!
 
@@ -30,12 +30,12 @@ sudo apt install yadm
 ### Clone and Bootstrap
 
 ```bash
-yadm clone -b main https://github.com/icancclearynow/dotfiles --bootstrap
+yadm clone -b main https://github.com/iancleary/dotfiles --bootstrap
 ```
 
 This clones my dotfiles repo via HTTPS using yadm's [bootstrap](https://yadm.io/docs/bootstrap) standard command.
 
-My Bootstrap script is [icancclearynow/dotfiles/blob/main/.config/yadm/bootstrap](https://github.com/icancclearynow/dotfiles/blob/main/.config/yadm/bootstrap). It's purpose is to:
+My Bootstrap script is [iancleary/dotfiles/blob/main/.config/yadm/bootstrap](https://github.com/iancleary/dotfiles/blob/main/.config/yadm/bootstrap). It's purpose is to:
 
 * loads my dotfiles (including SSH keys)
 * decrypt the private key (prompts for password),
