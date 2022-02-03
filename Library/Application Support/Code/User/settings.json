@@ -3,6 +3,24 @@
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
     "redhat.telemetry.enabled": true,
     "terminal.integrated.fontFamily": "MesloLGS NF",
+    "colorInfo.languages": [
+        {
+            "selector": "css",
+            "colors": "css"
+        }, {
+            "selector": "sass",
+            "colors": "css"
+        }, {
+            "selector": "scss",
+            "colors": "css"
+        }, {
+            "selector": "less",
+            "colors": "css"
+        }, {
+            "selector": "js", // React Styled Components
+            "colors": "css"
+        }
+    ],
     "cSpell.userWords": [
         "accesstoken",
         "analyzer",
@@ -111,5 +129,11 @@
         "yadm",
         "zsh"
     ],
-    "window.zoomLevel": -1
+    "[vue]": {
+        "editor.defaultFormatter": "johnsoncodehk.volar"
+    },
+    "window.zoomLevel": -1,
+    "colorInfo.fields": [
+        "preview"
+    ]
 }
