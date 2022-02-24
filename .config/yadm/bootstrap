@@ -12,7 +12,9 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     # Mac OSX
     ssh-add --apple-use-keychain  ~/.ssh/github_id_ed25519
 else
-    # Unknown.
+    : # Do nothing
+    echo "Unknown Operating system: $OSTYPE"
+    exit
 fi
 echo "Testing ssh connection to github.com"
 ssh -T git@github.com
