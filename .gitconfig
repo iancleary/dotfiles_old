@@ -1,6 +1,6 @@
-[user]
-	email = hello@iancleary.me
-	name = iancleary
+# when working on MacOS
+[includeIf "gitdir:/Users/iancleary/"]
+	path = ~/.gitconfig.personal.macos
 [init]
 	defaultBranch = main
 [pull]
