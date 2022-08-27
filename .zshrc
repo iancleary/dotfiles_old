@@ -128,6 +128,8 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
     # Created by `pipx` on 2021-12-03 00:48:33
     export PATH="$PATH:/Users/iancleary/.local/bin"
+    eval $(ssh-agent)
+    ssh-add ~/.ssh/github_id_ed25519
 else
     # Unknown.
 fi
@@ -149,4 +151,5 @@ fi
 autoload -Uz compinit
 zstyle ':completion:*' menu select
 fpath+=~/.zfunc
+
 
