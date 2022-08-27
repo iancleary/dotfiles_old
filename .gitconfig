@@ -1,9 +1,13 @@
-# when working on MacOS
-[includeIf "gitdir:/Users/iancleary/"]
-	path = ~/.gitconfig.personal.macos
 [init]
 	defaultBranch = main
 [pull]
 	rebase = false
 [commit]
 	gpgsign = true
+[user]
+	name = Ian Cleary
+	email = hello@iancleary.me
+
+# when working on MacOS
+[includeIf "gitdir:/Users/iancleary/"]
+	path = ~/.gitconfig.personal.macos
