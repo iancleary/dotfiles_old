@@ -3,7 +3,7 @@
 [pull]
 	rebase = false
 [commit]
-	gpgsign = true
+	gpgsign = false
 [user]
 	name = Ian Cleary
 	email = hello@iancleary.me
